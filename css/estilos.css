@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#index {
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav-pills strong {
+    transition: 1s;
+}
+
+.nav-pills strong:hover {
+    font-size: 1.2em !important;
+    text-decoration: underline;
+}
+
+.mensajeEmergente {
+    z-index: +10;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mensajeEmergente .toast {
+    transition: none;
+}
+
+.ventanaNegra {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.404);
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: +9;
+}

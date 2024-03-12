@@ -1,0 +1,209 @@
+/* Carta */
+
+.flip-card {
+    background-color: transparent;
+    width: 40vw;
+    height: 50vh;
+    perspective: 1000px;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid white;
+    border-radius: 1rem;
+}
+
+.flip-card-front {
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.13) 60%, rgba(255, 255, 255, 0.13) 88%,
+            rgba(255, 255, 255, 0.13) 40%, rgba(255, 255, 255, 0.247) 48%);
+    color: rgb(255, 255, 255);
+}
+
+.flip-card-back {
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.13) 60%, rgba(255, 255, 255, 0.13) 88%,
+            rgba(255, 255, 255, 0.13) 40%, rgba(255, 255, 255, 0.247) 48%);
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+/* Inpusts */
+
+.wave-group {
+    position: relative;
+    margin-top: 2em;
+}
+
+.wave-group .input {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    padding: 0.5em;
+    border: none;
+    color: white;
+    border-bottom: 1px solid #ffffff91;
+    background: transparent;
+}
+
+.wave-group .input:focus {
+    outline: none;
+}
+
+.wave-group .label {
+    color: #ffffff9a;
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    display: flex;
+}
+
+.wave-group .label-char {
+    transition: 0.2s ease all;
+    transition-delay: calc(var(--index) * .05s);
+}
+
+.wave-group .input:focus~label .label-char,
+.wave-group .input:valid~label .label-char {
+    transform: translateY(-20px);
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.wave-group .bar {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.wave-group .bar:before,
+.wave-group .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #ffffff;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.wave-group .bar:before {
+    left: 50%;
+}
+
+.wave-group .bar:after {
+    right: 50%;
+}
+
+.wave-group .input:focus~.bar:before,
+.wave-group .input:focus~.bar:after {
+    width: 50%;
+}
+
+/* Botones */
+
+.button {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    background-color: #fdfdfd28;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    padding: 12px;
+    gap: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    left: -4px;
+    top: -1px;
+    margin: auto;
+    width: 128px;
+    height: 48px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, #ffffff33 0%, #ffffff3b 100% );
+    z-index: -10;
+    pointer-events: none;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .button::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    inset: 0;
+    border: 0.1em solid white;
+    transform: translate3d(0, 0, 0) scale(0.95);
+    filter: blur(20px);
+  }
+  
+  .button:hover::after {
+    filter: blur(30px);
+  }
+  
+  .button:hover::before {
+    transform: rotate(-180deg);
+  }
+  
+  .button:active::before {
+    scale: 0.7;
+  }
+
+  @media (min-width: 1250px) {
+    .flip-card {
+        background-color: transparent;
+        width: 25vw;
+        height: 50vh;
+        perspective: 1000px;
+        font-family: sans-serif;
+    }
+    
+  }
+  
