@@ -1,16 +1,16 @@
-var toastEl = document.querySelector('.toast');
-var toast = new bootstrap.Toast(toastEl);
+const toast = document.querySelector('.toast')
 
 function login() {
-    if (document.querySelector('.loginEmail').value === "admin" || document.querySelector('.loginPassword').value === "admin") {
+    if (document.querySelector('.loginEmail').value === "admin" && document.querySelector('.loginPassword').value === "admin") {
         location.href = "home.html"
     } else {
-        toast.show();
+        toast.style.display = "block";
         document.querySelector('.ventanaNegra').style.display = "block"
     }
 }
 
 function cerrarVentana() {
     document.querySelector('.ventanaNegra').style.display = "none"
-    toast.hide();
+    toast.style.display = "none";
+
 }

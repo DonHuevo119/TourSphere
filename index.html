@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
-<body id="index">
+<body class="animate__animated animate__fadeIn animate__slower" id="index" style="overflow-y: scroll;">
 
     <!-- Header -->
 
     <header class="d-flex flex-wrap justify-content-center align-items-center py-3 mb-4 border-bottom bg-light">
         <!-- Izquierda -->
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32">
                 <use xlink:href="#bootstrap"></use>
             </svg>
@@ -43,17 +43,18 @@
 
     <!-- Mensaje de alerta -->
 
-    <div class="mensajeEmergente">
+    <div class="mensajeEmergente text-light">
         <div role="alert" aria-live="assertive" aria-atomic="true" class="toast animate__animated animate__fadeInDown"
-            data-bs-autohide="true">
-            <div class="toast-header">
-                <img src="..." class="rounded me-2" alt="...">
-                <strong class="me-auto">Bootstrap</strong>
-                <small>11 mins ago</small>
-                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close" onclick="cerrarVentana()"></button>
+            data-bs-autohide="true" style="border: 0.1em solid white;">
+            <div class="toast-header" style="background-color: rgba(179, 179, 179, 0.447) !important;">
+                <i class="bi bi-lock-fill text-light me-2"></i>
+                <strong class="me-auto">Error</strong>
+                <small>try again</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"
+                    onclick="cerrarVentana()"></button>
             </div>
-            <div class="toast-body">
-                Hello, world! This is a toast message.
+            <div class="toast-body" style="background-color: rgba(255, 255, 255, 0.464) !important;">
+                Email or password invalid, please try again
             </div>
         </div>
     </div>
@@ -69,8 +70,9 @@
                 </div>
                 <!-- Parte trasera -->
                 <div class="flip-card-back w-100">
-                    <div class="imagen align-items-center flex-wrap" style="top: 0;">
-                        <img class="me-4" src="img/logo_web_white.png" alt="" height="80" width="80">
+                    <div class="d-flex imagen align-items-center justify-content-center flex-wrap"
+                        style="top: 0; padding: 2em;">
+                        <img class="me-4" src="img/logo_web_white.png" alt="" style="width: 10%;">
                         <h1>TourSphere</h1>
                     </div>
 
@@ -111,7 +113,7 @@
                             <p class="cursor-pointer user-select-none text-decoration-none">Don't have an account? |
                                 Register</p>
                         </a>
-                        <button class="button" onclick="login()">
+                        <button class="button mb-1" onclick="login()">
                             Send
                         </button>
                     </div>
@@ -127,7 +129,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
 </body>
 
 </html>

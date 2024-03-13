@@ -14,6 +14,13 @@ a:hover {
     background-attachment: fixed;
 }
 
+#home {
+    background-image: url("../img/fondoCiudad.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 .nav-pills strong {
     transition: 1s;
 }

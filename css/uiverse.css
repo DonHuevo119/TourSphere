@@ -2,10 +2,11 @@
 
 .flip-card {
     background-color: transparent;
-    width: 40vw;
-    height: 50vh;
     perspective: 1000px;
     font-family: sans-serif;
+    width: 40vw;
+    height: 80vh;
+    margin-bottom: 10em;
 }
 
 .title {
@@ -196,12 +197,12 @@
     scale: 0.7;
   }
 
-  @media (min-width: 1250px) {
+  @media (max-width: 800px) {
     .flip-card {
         background-color: transparent;
-        width: 25vw;
-        height: 50vh;
         perspective: 1000px;
+        width: 80vw;
+        height: 80vh;
         font-family: sans-serif;
     }
     
