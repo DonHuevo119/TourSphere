@@ -4,7 +4,7 @@
     background-color: transparent;
     perspective: 1000px;
     font-family: sans-serif;
-    width: 40vw;
+    width: 30vw;
     height: 80vh;
     margin-bottom: 10em;
 }
@@ -197,7 +197,7 @@
     scale: 0.7;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 1000px) {
     .flip-card {
         background-color: transparent;
         perspective: 1000px;

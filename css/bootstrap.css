@@ -11985,7 +11985,8 @@ background: none !important;
 .contenedorB{
   background-color: rgba(255, 255, 255, 0.102);
   border: 0.1em solid white;
-  border-radius: 0.3em;
-  padding: 2em;
+  border-radius: 1em;
+  padding: 3em;
   height: 30vh;
+  margin-top: 1em;
 }

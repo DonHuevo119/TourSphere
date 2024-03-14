@@ -69,7 +69,7 @@ function imprimirDatos(datos) {
                 <h1>Barcelona</h1>
             </div>
             <div class="contenedorB group_1 d-flex flex-column justify-content-around align-items-center text-light">
-            <img src="https://www.el-tiempo.net/themes/eltiempo-theme/assets/img/weather-static/cloudy.svg" alt width="70" height="70">
+            <img src="https://www.el-tiempo.net/themes/eltiempo-theme/assets/img/weather-static/cloudy.svg" alt width="80" height="80">
             <h1>${estado}</h1>
             </div>
             <div class="contenedorB group_1 d-flex flex-column justify-content-around align-items-center text-light" style = "width=20%;">
