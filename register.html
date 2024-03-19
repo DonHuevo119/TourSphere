@@ -27,12 +27,12 @@
         </a>
         <!-- Derecha -->
         <ul class="nav nav-pills">
-            <li class="nav-item fs-4"><a href="#" class="nav-link active bg-none"
+            <li class="nav-item fs-4"><a href="home.html" class="nav-link active bg-none"
                     aria-current="page"><strong>Home</strong></a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-white fs-4"><strong>Features</strong></a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-white fs-4"><strong>Pricing</strong></a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link text-white fs-4"><strong>Login</strong></a></li>
+            <li class="nav-item"><a href="register.html" class="nav-link text-white fs-4"><strong style="color: rgba(255, 255, 255, 0.719); text-decoration: overline;">Register</strong></a></li>
             <li class="nav-item"><a href="#" class="nav-link text-white fs-4"><strong>FAQs</strong></a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-white fs-4"><strong>About</strong></a></li>
+            <li class="nav-item"><a href="infoPage.html" class="nav-link text-white fs-4"><strong>About</strong></a></li>
         </ul>
     </header>
 
@@ -120,10 +120,14 @@
                     <!-- boton -->
 
                     <div class="d-flex flex-column align-items-center justify-content-center mt-4">
-                        <a href="index.html">
-                            <p class="cursor-pointer user-select-none text-decoration-none">Don't have an account? |
-                                Register</p>
-                        </a>
+                        <div class="d-flex flex-column justify-content-between w-100 mb-2">
+                            <a href="register.html">
+                                <p class="cursor-pointer user-select-none text-decoration-none fs-6" style="color: rgba(255, 255, 255, 0.699);">Already have an account? | Login</p>
+                            </a>
+                            <a href="home.html">
+                                <p class="cursor-pointer user-select-none text-decoration-none fs-6" style="color: rgba(255, 255, 255, 0.699);">Guest mode</p>
+                            </a>
+                        </div>
                         <button class="button">
                             Send
                         </button>
@@ -132,6 +136,25 @@
             </div>
         </div>
     </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-5">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-light fs-4">© 2024 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-light">
+            <i class="bi bi-twitter-x fs-2 cursor-pointer"></i>
+            <i class="bi bi-instagram fs-2 ms-4 cursor-pointer"></i>
+            <i class="bi bi-facebook fs-2 ms-4 cursor-pointer"></i>
+            <i class="bi bi-whatsapp fs-2 ms-4 me-4 cursor-pointer"></i>
+        </ul>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
