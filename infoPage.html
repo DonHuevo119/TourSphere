@@ -25,13 +25,13 @@
             <span class="fs-2 text-light"><strong>TourSphere</strong></span>
         </a>
         <!-- Derecha -->
-        <ul class="nav nav-pills">
+        <ul class="nav nav-pills me-5">
             <li class="nav-item fs-4"><a href="home.html" class="nav-link active bg-none"
                     aria-current="page"><strong>Home</strong></a></li>
             <li class="nav-item"><a href="index.html" class="nav-link text-white fs-4"><strong>Login</strong></a></li>
             <li class="nav-item"><a href="register.html" class="nav-link text-white fs-4"><strong>Register</strong></a>
             </li>
-            <li class="nav-item"><a href="#" class="nav-link text-white fs-4"><strong>FAQs</strong></a></li>
+            <li class="nav-item"><a href="fav.html" class="nav-link text-white fs-4"><strong>Fav.</strong></a></li>
             <li class="nav-item"><a href="infoPage.html" class="nav-link text-white fs-4"><strong
                         style="color: rgba(255, 255, 255, 0.719); text-decoration: overline;">About</strong></a></li>
         </ul>
@@ -46,9 +46,9 @@
                     made for tourists and non-tourists.</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                     <button type="button" class="contenedorBV text-light button mb-1 me-2"
-                        style="background-color: rgba(240, 248, 255, 0.24);">Login</button>
+                        style="background-color: rgba(240, 248, 255, 0.24);" onclick="irLogin()">Login</button>
                     <button type="button" class="contenedorBV text-light button mb-1 ms-2"
-                        style="background-color: rgba(240, 248, 255, 0.158);">Register</button>
+                        style="background-color: rgba(240, 248, 255, 0.158);" onclick="irRegister()">Register</button>
                 </div>
             </div>
         </div>
@@ -72,24 +72,25 @@
 
 
     <div class="d-flex flex-column align-items-center justify-content-center">
-        <div class="mt-5 contenedorBV w-75">
+        <div class="mt-5 contenedorBV w-75 pb-5">
             <div class="titulo d-flex justify-content-center">
-                <h1 class="text-light">Recommended for you</h1>
+                <h1 class="text-light mt-4 mb-4">Recommended for you</h1>
             </div>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
                     <div class="card shadow-sm">
                         <img class="rounded-2" src="img/laSagradaFamilia.jpg" alt="" style="min-height: 300px;">
                         <div class="card-body">
-                            
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+                            <h1>La Sagrada Familia</h1>
+                            <p class="card-text texto">The Sagrada Familia is a Catholic basilica located in Barcelona,
+                                Spain,
+                                designed by the renowned Catalan architect Antoni Gaudí.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                        style="background-color: rgba(240, 248, 255, 0.158);"
+                                        onclick="irEjemplo()">View</button>
                                 </div>
-                                <small class="text-body-secondary">9 mins</small>
                             </div>
                         </div>
                     </div>
@@ -98,14 +99,17 @@
                     <div class="card shadow-sm">
                         <img class="rounded-2" src="img/camp nou.jpg" alt="" style="min-height: 300px;">
                         <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
+                            <h1>Parque Güell</h1>
+                            <p class="card-text texto">Parque Güell is a public park in Barcelona, Spain, also designed
+                                by the
+                                architect Antoni Gaudí. It showcases his distinctive style of colorful mosaic work,
+                                and imaginative design. </p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                        style="background-color: rgba(240, 248, 255, 0.158);"
+                                        onclick="irEjemplo()">View</button>
                                 </div>
-                                <small class="text-body-secondary">9 mins</small>
                             </div>
                         </div>
                     </div>
@@ -114,14 +118,16 @@
                     <div class="card shadow-sm">
                         <img class="rounded-2" src="img/guell.jpg" alt="" style="min-height: 300px;">
                         <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            <h1>Camp Nou</h1>
+                            <p class="card-text texto">This is a wider card with supporting text below as a natural
+                                lead-in to
                                 additional content. This content is a little bit longer.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                    <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                        style="background-color: rgba(240, 248, 255, 0.158);"
+                                        onclick="irEjemplo()">View</button>
                                 </div>
-                                <small class="text-body-secondary">9 mins</small>
                             </div>
                         </div>
                     </div>
@@ -147,7 +153,7 @@
             <i class="bi bi-whatsapp fs-2 ms-4 me-4 cursor-pointer"></i>
         </ul>
     </footer>
-
+    <script src="js/limitarTexto.js"></script>
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

@@ -12,5 +12,15 @@ function login() {
 function cerrarVentana() {
     document.querySelector('.ventanaNegra').style.display = "none"
     toast.style.display = "none";
-
 }
+
+function irLogin() {
+    location.href = "index.html"
+}
+
+
+
+function irRegister() {
+    location.href = "register.html"
+}
+
