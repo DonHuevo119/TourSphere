@@ -8013,6 +8013,10 @@ footer{
   margin-bottom: 3rem !important;
 }
 
+.mb-10 {
+  margin-bottom: 6rem !important;
+}
+
 .mb-auto {
   margin-bottom: auto !important;
 }
@@ -12002,5 +12006,13 @@ background: none !important;
   border: 0.1em solid white;
   border-radius: 1em;
   padding: 1em;
+  margin-top: 1em;
+}
+
+.contenedorBVP{
+  background-color: rgba(255, 255, 255, 0.102);
+  border: 0.1em solid white;
+  border-radius: 1em;
+  padding-top: 1em;
   margin-top: 1em;
 }

@@ -27,26 +27,81 @@
         </a>
         <!-- Derecha -->
         <ul class="nav nav-pills me-5">
-            <li class="nav-item fs-4"><a href="home.html" class="nav-link active bg-none"
-                    aria-current="page"><strong style="color: rgba(255, 255, 255, 0.719); text-decoration: overline;">Home</strong></a></li>
+            <li class="nav-item fs-4"><a href="home.html" class="nav-link active bg-none" aria-current="page"><strong
+                        style="color: rgba(255, 255, 255, 0.719); text-decoration: overline;">Home</strong></a></li>
             <li class="nav-item"><a href="index.html" class="nav-link text-white fs-4"><strong>Login</strong></a></li>
-            <li class="nav-item"><a href="register.html" class="nav-link text-white fs-4"><strong>Register</strong></a></li>
+            <li class="nav-item"><a href="register.html" class="nav-link text-white fs-4"><strong>Register</strong></a>
+            </li>
             <li class="nav-item"><a href="fav.html" class="nav-link text-white fs-4"><strong>Fav.</strong></a></li>
-            <li class="nav-item"><a href="infoPage.html" class="nav-link text-white fs-4"><strong>About</strong></a></li>
+            <li class="nav-item"><a href="infoPage.html" class="nav-link text-white fs-4"><strong>About</strong></a>
+            </li>
         </ul>
     </header>
 
-    <div class="containerPadre">
+    <div class="d-flex flex-column align-items-center justify-content-center">
+        <!-- <div class="col-8"> -->
+            <div class="containerPadre pb-5">
+            </div>
+
+            <div class="contenedorBVP">
+                <div
+                    class="contenedorCarousel d-flex flex-column align-items-center justify-content-center user-select-none">
+                    <h1 class="text-light text-align-center">Recommended for you</h1>
+
+                    <div id="carouselExampleCaptions" class="carousel slide border rounded-4"
+                        style="max-height: 400px; min-height: 400px; max-width: 650px; min-width: 650px;">
+
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/barcelona.jpg" class="d-block w-100 rounded-4 border" alt="..."
+                                    style="max-height: 400px; min-height: 400px; max-width: 650px; min-width: 650px;">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>La Sagrada Familia</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/camp nou.jpg" class="d-block w-100 rounded-4 border" alt="..."
+                                    style="max-height: 400px; min-height: 400px; max-width: 650px; min-width: 650px;">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Parque Güell</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/guell.jpg" class="d-block w-100 rounded-4 border" alt="..."
+                                    style="max-height: 400px; min-height: 400px; max-width: 650px; min-width: 650px;">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Camp Nou</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="titulo">
-    </div>
-
-    <div class="contenedorCarousel">
-
-    </div>
-
-    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-5 fixed-bottom">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-5">
         <div class="col-md-4 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
                 <svg class="bi" width="30" height="24">
