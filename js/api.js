@@ -70,7 +70,7 @@ function imprimirDatos(datos) {
             </div>
             <div class="contenedorB group_1 d-flex flex-column justify-content-around align-items-center text-light">
             <img src="https://www.el-tiempo.net/themes/eltiempo-theme/assets/img/weather-static/cloudy.svg" alt width="80" height="80">
-            <h1>${estado}</h1>
+            <h1>Nuboso</h1>
             </div>
             <div class="contenedorB group_1 d-flex flex-column justify-content-around align-items-center text-light" style = "width=20%;">
                 <i class="bi bi-alarm" style="font-size: 4em;"></i>

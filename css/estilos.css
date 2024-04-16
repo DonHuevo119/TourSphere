@@ -23,7 +23,13 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
+}
+
+#homeSagrada {
+    background-image: url("../img/fondoSagrada.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .nav-pills strong {

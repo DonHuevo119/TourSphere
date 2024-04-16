@@ -11993,7 +11993,7 @@ background: none !important;
 }/*# sourceMappingURL=bootstrap.css.map */
 
 .contenedorB{
-  background-color: rgba(255, 255, 255, 0.102);
+  background: linear-gradient(rgba(255, 255, 255, 0.034), rgba(255, 255, 255, 0.212));
   border: 0.1em solid white;
   border-radius: 1em;
   padding: 3em;
@@ -12010,7 +12010,7 @@ background: none !important;
 }
 
 .contenedorBVP{
-  background-color: rgba(255, 255, 255, 0.102);
+  background: linear-gradient(rgba(255, 255, 255, 0.116), rgba(255, 255, 255, 0.295));
   border: 0.1em solid white;
   border-radius: 1em;
   padding-top: 1em;

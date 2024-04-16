@@ -18,9 +18,19 @@ function irLogin() {
     location.href = "index.html"
 }
 
-
-
 function irRegister() {
     location.href = "register.html"
+}
+
+function irSagrada() {
+    location.href = "lugaresDeVisita/sagradaFamilia.html"
+}
+
+function irCamp() {
+    location.href = "lugaresDeVisita/parkGuell.html"
+}
+
+function irPark() {
+    location.href = "lugaresDeVisita/campNou.html"
 }
 
