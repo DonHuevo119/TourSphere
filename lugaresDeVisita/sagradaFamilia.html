@@ -8,14 +8,262 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/uiverse.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <title>TourSphere</title>
+    <title>La Sagrada Familia</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
 <body class="animate__animated animate__fadeIn animate__slower" id="homeSagrada">
 
-    <div class="container"></div>
-    
+    <header class="d-flex flex-wrap justify-content-center align-items-center py-3 mb-4 border-bottom bg-light"
+        style="margin-bottom: 0 !important; background-color: rgba(255, 255, 255, 0.199) !important;">
+        <!-- Izquierda -->
+        <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+            <img class="me-4" src="../img/logo_web.png" alt="" height="50" width="50">
+            <span class="fs-2 text-light"><strong>TourSphere</strong></span>
+        </a>
+        <!-- Derecha -->
+        <ul class="nav nav-pills me-5">
+            <li class="nav-item fs-4"><a href="../home.html" class="nav-link active bg-none"
+                    aria-current="page"><strong>Home</strong></a></li>
+            <li class="nav-item"><a href="../index.html" class="nav-link text-white fs-4"><strong>Login</strong></a>
+            </li>
+            <li class="nav-item"><a href="../register.html"
+                    class="nav-link text-white fs-4"><strong>Register</strong></a>
+            </li>
+            <li class="nav-item"><a href="../fav.html" class="nav-link text-white fs-4"><strong>Fav.</strong></a></li>
+            <li class="nav-item"><a href="../infoPage.html" class="nav-link text-white fs-4"><strong>About</strong></a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="div" style="text-shadow: 1px 1px 15px black;">
+        <div class="d-flex justify-content-center">
+            <div class="px-4 py-5 my-5 text-center contenedorBV text-light w-75"
+                style="background-color: rgba(255, 255, 255, 0.233) !important;">
+                <h1 class="display-5 fw-bold text-body-emphasis">La Sagrada Familia</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">The Sagrada Familia is a monumental basilica located in the heart of Barcelona,
+                        Spain. Designed by the renowned Catalan architect Antoni Gaudí, construction began in 1882 and
+                        continues to this day, making it one of the world's most famous ongoing construction projects.
+                        <br><br>
+                        Gaudí's unique architectural style, characterized by intricate facades, towering spires, and
+                        organic shapes inspired by nature, is on full display in the Sagrada Familia. The basilica is a
+                        masterpiece of Modernisme, a movement synonymous with Catalan art and culture.
+
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg w-75"
+                style="background-color: rgba(255, 255, 255, 0.233) !important;">
+                <div class="col-lg-6 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-5">History</h1>
+                    <p class="lead  text-light">Between 1877 and 1882, a plot of land was acquired in the new Eixample
+                        district of Barcelona, marking the beginning of the construction of the Sagrada Familia.
+                        Initially overseen by architect Francisco de Paula del Villa, Antoni Gaudí took over the project
+                        in 1883 at the age of 31. Gaudí's involvement lasted over 40 years until his death.
+                        <br><br>
+                        The onset of the Spanish Civil War in 1935 temporarily halted construction. Gaudí had radically
+                        transformed the church's design, infusing it with a central theme of "natural elements." Despite
+                        some of Gaudí's structures being demolished during the war, the church itself remained standing.
+                        Construction resumed in the 1950s, and ongoing work on the Sagrada Familia can still be observed
+                        today.
+                        <a href="https://sagradafamilia.org/es/historia-del-templo" target="_blank">
+                            <p class="text-light" style="text-decoration: underline;">Click here for more information
+                            </p>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                    <img class="me-5 mb-5 rounded-4" src="../img/sagradaDibujo.png" alt="" width="720">
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center w-75 mb-5">
+                <div class="contenedorBVP pb-5"
+                    style="width: 90vw; background-color: rgba(255, 255, 255, 0.137) !important;">
+                    <div
+                        class="contenedorCarousel d-flex flex-column align-items-center justify-content-center user-select-none">
+                        <h1 class="text-light text-align-center p-3" style="text-shadow: 1px 1px 15px black;">
+                            Interesting images
+                        </h1>
+
+                        <div id="carouselExampleCaptions" class="carousel slide border rounded-4"
+                            style="max-height: 65%; min-height:65%; max-width:65%; min-width: 65%">
+
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../img/sagrada2.png" class="d-block w-100 rounded-4 border" alt="..."
+                                        style="max-height: 100%; min-height:100%; max-width:100%; min-width: 100%">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1 style="text-shadow: 1px 1px 9px black;">La Sagrada Familia</h1>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/sagradaDentro.png" class="d-block w-100 rounded-4 border" alt="..."
+                                        style="max-height: 100%; min-height:100%; max-width:100%; min-width: 100%">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1 style="text-shadow: 1px 1px 9px black;">Seen from inside</h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/sagradaNoche.png" class="d-block w-100 rounded-4 border" alt="..."
+                                        style="max-height: 100%; min-height:100%; max-width:100%; min-width: 100%">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1 style="text-shadow: 1px 1px 2px black;">Still under construction</h1>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="" aria-hidden="true"><i class="bi bi-caret-left-fill"
+                                        style="font-size: 5em;"></i></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="" aria-hidden="true"><i class="bi bi-caret-right-fill"
+                                        style="font-size: 5em;"></i></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="d-flex justify-content-center mb-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg w-75"
+                style="background-color: rgba(255, 255, 255, 0.233) !important;">
+                <div class="col-lg-6 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-5">Geolocation of the place</h1>
+                    <p class="lead  text-light">The Sagrada Familia is located in the Eixample district of Barcelona,
+                        Spain. Situated at the intersection of Carrer de Mallorca and Carrer de la Marina, the
+                        basilica stands as a prominent landmark amidst the bustling streets of the city.
+                        <br><br>
+                        Visitors can easily find the Sagrada Familia using GPS navigation or by consulting maps of
+                        Barcelona. Its
+                        central location makes it accessible from various parts of the city, whether by public
+                        transportation, taxi, or on foot.
+                    </p>
+
+                </div>
+                <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                    <a href="https://www.google.es/maps/place/Bas%C3%ADlica+de+la+Sagrada+Fam%C3%ADlia/@41.4035636,2.1736476,18.25z/data=!4m6!3m5!1s0x12a4a2dcd83dfb93:0x9bd8aac21bc3c950!8m2!3d41.4036299!4d2.1743558!16zL20vMGc2bjM?entry=ttu"
+                        target="_blank">
+                        <img class="me-5 mb-5 rounded-4" src="../img/sagradaGeolocalization.png" alt="" width="720">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="d-flex flex-column align-items-center justify-content-center mb-5">
+            <div class="mt-5 contenedorBV w-75 pb-5">
+                <div class="titulo d-flex justify-content-center">
+                    <h1 class="text-light mt-4 mb-4">Local restaurants</h1>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="rounded-2" src="../img/puertecilla.png" alt=""
+                                style="min-height: 300px; max-height: 300px;">
+                            <div class="card-body" style="min-height: 350px; max-height: 350px;">
+                                <h1>Puertecillo Sagrada Familia</h1>
+                                <p class="card-text texto">With over 4.1 thousand reviews on Google and nearly full
+                                    stars, Puertecillo is undoubtedly one of the best dining options near the Sagrada
+                                    Familia. Their menu specializes in seafood, so if you're a seafood lover, make sure
+                                    to book your table as soon as possible!</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                            style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                            onclick="irEjemplo()">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="rounded-2" src="../img/stickhouse.png" alt=""
+                                style="min-height: 300px; max-height: 300px;">
+                            <div class="card-body" style="min-height: 350px; max-height: 350px;">
+                                <h1>Bivio steak house Barcelona</h1>
+                                <p class="card-text texto">Parque Güell is a public park in Barcelona, Spain, also
+                                    designed
+                                    by the
+                                    architect Antoni Gaudí. It showcases his distinctive style of colorful mosaic work,
+                                    and imaginative design. </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                            style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                            onclick="irEjemplo()">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="rounded-2" src="../img/restaurante3.png" alt=""
+                                style="min-height: 300px; max-height: 300px;">
+                            <div class="card-body" style="min-height: 350px; max-height: 350px;">
+                                <h1>Tuscania Food & Wine</h1>
+                                <p class="card-text texto">The Camp Nou is a renowned football stadium located in
+                                    Barcelona, Spain, serving as the home ground for FC Barcelona.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                            style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                            onclick="irEjemplo()">View</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-5">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-light fs-4">© 2024 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-light">
+            <i class="bi bi-twitter-x fs-2 cursor-pointer"></i>
+            <i class="bi bi-instagram fs-2 ms-4 cursor-pointer"></i>
+            <i class="bi bi-facebook fs-2 ms-4 cursor-pointer"></i>
+            <i class="bi bi-whatsapp fs-2 ms-4 me-4 cursor-pointer"></i>
+        </ul>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

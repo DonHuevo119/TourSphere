@@ -34,3 +34,7 @@ function irPark() {
     location.href = "lugaresDeVisita/campNou.html"
 }
 
+function irHome() {
+    location.href = "home.html"
+}
+

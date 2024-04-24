@@ -18,6 +18,13 @@ a:hover {
     background-attachment: fixed;
 }
 
+#index2 {
+    background-image: url("../img/Bosque.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 #home {
     background-image: url("../img/fondoCiudad.jpg");
     background-size: cover;
