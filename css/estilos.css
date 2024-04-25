@@ -3,7 +3,7 @@ a {
     color: white;
 }
 
-p:hover{
+p:hover {
     color: white !important;
 }
 
@@ -16,6 +16,7 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    backdrop-filter: brightness(90%) !important;
 }
 
 #index2 {
@@ -23,6 +24,7 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    /* backdrop-filter: brightness(90%) !important; */
 }
 
 #home {
@@ -30,6 +32,7 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    backdrop-filter: brightness(90%) !important;
 }
 
 #homeSagrada {
@@ -37,6 +40,8 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    backdrop-filter: brightness(70%) !important;
+
 }
 
 .nav-pills strong {
