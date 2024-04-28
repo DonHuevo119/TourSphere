@@ -27,14 +27,21 @@ function irSagrada() {
 }
 
 function irCamp() {
-    location.href = "lugaresDeVisita/parkGuell.html"
+    location.href = "lugaresDeVisita/campNou.html"
 }
 
 function irPark() {
-    location.href = "lugaresDeVisita/campNou.html"
+    location.href = "lugaresDeVisita/ParkGuell.html"
 }
 
 function irHome() {
     location.href = "home.html"
 }
 
+function irTop() {
+    // Hacer scroll suave hacia la parte superior de la página
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+}

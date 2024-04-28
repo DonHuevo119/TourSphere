@@ -40,8 +40,31 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    backdrop-filter: brightness(70%) !important;
+    backdrop-filter: brightness(60%) !important;
+}
 
+#homeCamp {
+    background-image: url("../img/campnouFondo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: brightness(60%) !important;
+}
+
+#homePark {
+    background-image: url("../img/parkGuell.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: brightness(60%) !important;
+}
+
+#btnTop{
+    transition: 0.5s !important;
+}
+
+#btnTop:hover{
+   font-size: 2.2em !important;
 }
 
 .nav-pills strong {

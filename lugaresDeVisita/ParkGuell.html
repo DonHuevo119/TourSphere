@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/uiverse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>Park Guell</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="animate__animated animate__fadeIn animate__slower" id="homePark">
+
+    <header class="d-flex flex-wrap justify-content-center align-items-center py-3 mb-4 border-bottom bg-light"
+        style="margin-bottom: 0 !important; background-color: rgba(255, 255, 255, 0.199) !important;">
+        <!-- Izquierda -->
+        <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+            <img class="me-4" src="../img/logo_web.png" alt="" height="50" width="50">
+            <span class="fs-2 text-light"><strong>TourSphere</strong></span>
+        </a>
+        <!-- Derecha -->
+        <ul class="nav nav-pills me-5">
+            <li class="nav-item fs-4"><a href="../home.html" class="nav-link active bg-none"
+                    aria-current="page"><strong>Home</strong></a></li>
+            <li class="nav-item"><a href="../index.html" class="nav-link text-white fs-4"><strong>Login</strong></a>
+            </li>
+            <li class="nav-item"><a href="../register.html"
+                    class="nav-link text-white fs-4"><strong>Register</strong></a>
+            </li>
+            <li class="nav-item"><a href="../fav.html" class="nav-link text-white fs-4"><strong>Fav.</strong></a></li>
+            <li class="nav-item"><a href="../infoPage.html" class="nav-link text-white fs-4"><strong>About</strong></a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="div" style="text-shadow: 1px 1px 2px black;">
+        <div class="d-flex justify-content-center">
+            <div class="px-4 py-5 my-5 text-center contenedorBV text-light w-75"
+                style="background-color: rgba(255, 255, 255, 0.233) !important;">
+                <h1 class="display-5 fw-bold text-body-emphasis">Parque Güell</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="lead mb-4">
+                        Parque Güell is a sprawling public park nestled in the heart of Barcelona, Spain. Conceived by
+                        the visionary Catalan architect Antoni Gaudí, development of the park commenced in 1900 and
+                        continues to evolve, showcasing Gaudí's enduring legacy.
+                        <br><br>
+                        Gaudí's distinctive architectural style, characterized by whimsical structures, colorful mosaic
+                        work, and undulating forms inspired by nature, is prominently featured throughout Parque Güell.
+                        The park is a testament to Gaudí's creative genius and serves as a tribute to Modernisme, a
+                        movement synonymous with Catalan artistic innovation and cultural identity.
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center mb-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg w-75"
+                style="background-color: rgba(255, 255, 255, 0.233) !important;">
+                <div class="col-lg-6 p-3 p-lg-5 pt-lg-3">
+                    <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-5">History</h1>
+                    <p class="lead  text-light">Between 1900 and 1905, a parcel of land was acquired in the Gràcia
+                        district of Barcelona, initiating the development of Parque Güell. Initially supervised by
+                        architect Emili Sala Cortés, Antoni Gaudí assumed leadership of the project in 1906 at the age
+                        of 54. Gaudí's involvement persisted for over 15 years until its completion.
+                        <br><br>
+                        The outbreak of World War I in 1914 temporarily disrupted construction. Gaudí had radically
+                        transformed the park's design, imbuing it with a central theme of "harmony with nature." Despite
+                        financial setbacks and material shortages during the war, the park's essence endured.
+                        Development resumed in the early 1920s, and ongoing work on Parque Güell continues to captivate
+                        visitors today.
+                        <a href="https://parkguell.barcelona/en/park-guell/over-hundred-years-history" target="_blank">
+                            <p class="text-light" style="text-decoration: underline;">Click here for more information
+                            </p>
+                        </a>
+                    </p>
+                </div>
+
+                <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                    <img class="me-5 mb-5 rounded-4" src="../img/parkGuellHistory.png" alt="" width="720">
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center w-75 mb-5">
+                <div class="contenedorBVP pb-5"
+                    style="width: 90vw; background-color: rgba(255, 255, 255, 0.137) !important;">
+                    <div
+                        class="contenedorCarousel d-flex flex-column align-items-center justify-content-center user-select-none">
+                        <h1 class="text-light text-align-center p-3" style="text-shadow: 1px 1px 15px black;">
+                            Interesting images
+                        </h1>
+
+                        <div id="carouselExampleCaptions" class="carousel slide border rounded-4"
+                            style="max-height: 65%; min-height:65%; max-width:65%; min-width: 65%">
+
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../img/parkGuell1.png" class="d-block w-100 rounded-4 border" alt="..."
+                                        style="max-height: 100%; min-height:100%; max-width:100%; min-width: 100%">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1 style="text-shadow: 1px 1px 9px black;">Park Güell</h1>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/parkGuell2.png" class="d-block w-100 rounded-4 border" alt="..."
+                                        style="max-height: 100%; min-height:100%; max-width:100%; min-width: 100%">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1 style="text-shadow: 1px 1px 9px black;">Beautiful park</h1>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../img/parkGuell3.png" class="d-block w-100 rounded-4 border" alt="..."
+                                        style="max-height: 100%; min-height:100%; max-width:100%; min-width: 100%">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h1 style="text-shadow: 1px 1px 2px black;">Casa Batlló</h1>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="" aria-hidden="true"><i class="bi bi-caret-left-fill"
+                                        style="font-size: 5em;"></i></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="" aria-hidden="true"><i class="bi bi-caret-right-fill"
+                                        style="font-size: 5em;"></i></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="d-flex justify-content-center mb-5">
+            <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg w-75"
+                style="background-color: rgba(255, 255, 255, 0.233) !important;">
+                <div class="col-lg-6 p-3 p-lg-5 pt-lg-3">
+                    <a href="https://www.google.es/maps/place/Park+G%C3%BCell/@41.414352,2.1518268,18z/data=!4m6!3m5!1s0x12a4a2ae52d441ab:0x899a0ba01aaace58!8m2!3d41.4144948!4d2.1526945!16zL20vMG52cw?entry=ttu"
+                        target="_blank">
+                        <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-5">Geolocation of the place</h1>
+                    </a>
+                    <p class="lead  text-light">Parque Güell is nestled in the Gràcia district of Barcelona, Spain.
+                        Positioned at the intersection of Carrer d'Olot and Carrer de Larrard, the park serves as a
+                        notable destination amidst the vibrant cityscape.
+                        <br><br>
+                        Visitors can effortlessly locate Parque Güell using GPS navigation or by referring to maps of
+                        Barcelona. Its central position ensures accessibility from different areas of the city, whether
+                        by public transport, taxi, or by foot.
+                    </p>
+
+                </div>
+                <div class="col-lg-5 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                    <a href="https://www.google.es/maps/place/Park+G%C3%BCell/@41.414352,2.1518268,18z/data=!4m6!3m5!1s0x12a4a2ae52d441ab:0x899a0ba01aaace58!8m2!3d41.4144948!4d2.1526945!16zL20vMG52cw?entry=ttu"
+                        target="_blank">
+                        <img class="me-5 mb-5 rounded-4" src="../img/parkguellMap.png" alt="" width="720">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="d-flex flex-column align-items-center justify-content-center mb-5">
+            <div class="mt-5 contenedorBV w-75 pb-5">
+                <div class="titulo d-flex justify-content-center">
+                    <h1 class="text-light mt-4 mb-4">The best local restaurants</h1>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card h-100 d-flex flex-column">
+                            <img class="rounded-2" src="../img/terraMia.png" alt="">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <h1>Terra Mía</h1>
+                                <p class="card-text texto">With more than 2000 reviews on Google, it has 4.5 stars out
+                                    of 5. It is a restaurant that serves tapas, Mediterranean cuisine dishes and
+                                    sandwiches.</p>
+                                <div class="mt-auto">
+                                    <a href="https://www.terramiabarcelona.com/es/" target="_blank">
+                                        <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                            style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                            onclick="irEjemplo()">View</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 d-flex flex-column">
+                            <img class="rounded-2" src="../img/laSalud.png" alt="">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <h1>La Salut</h1>
+                                <p class="card-text texto">With more than 1000 reviews on Google, it has 4.2 stars out
+                                    of 5. It is a restaurant that serves grilled fish, seafood paella and has daily
+                                    menus.</p>
+                                <div class="mt-auto">
+                                    <a href="https://www.lasalutrestaurant.com/" target="_blank">
+                                        <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                            style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                            onclick="irEjemplo()">View</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 d-flex flex-column">
+                            <img class="rounded-2" src="../img/benTips.png" alt="">
+                            <div class="card-body d-flex flex-column justify-content-between">
+                                <h1>Ben Tips</h1>
+                                <p class="card-text texto">With more than 2000 reviews on Google, it has managed to have
+                                    4.5 stars out of 5. It is a restaurant with tapas, hamburgers, sandwiches and
+                                    Belgian beers.</p>
+                                <div class="mt-auto">
+                                    <a href="https://www.bentips.es/" target="_blank">
+                                        <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                            style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                            onclick="irEjemplo()">View</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <i id="btnTop" class="bi bi-arrow-up-circle-fill text-light fs-2 cursor-pointer" onclick="irTop()"></i>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-5">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-light fs-4">© 2024 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-light">
+            <i class="bi bi-twitter-x fs-2 cursor-pointer"></i>
+            <i class="bi bi-instagram fs-2 ms-4 cursor-pointer"></i>
+            <i class="bi bi-facebook fs-2 ms-4 cursor-pointer"></i>
+            <i class="bi bi-whatsapp fs-2 ms-4 me-4 cursor-pointer"></i>
+        </ul>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="../js/api.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
