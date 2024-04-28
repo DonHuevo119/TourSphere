@@ -24,7 +24,6 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* backdrop-filter: brightness(90%) !important; */
 }
 
 #home {
