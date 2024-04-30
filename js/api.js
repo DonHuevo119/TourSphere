@@ -64,19 +64,19 @@ function imprimirDatos(datos) {
     elemento.classList.add('gap-4');
 
     elemento.innerHTML = `
-            <div class="contenedorB group_1 d-flex flex-column justify-content-around align-items-center text-light">
+            <div class="contenedorB group_1 d-flex flex-column justify-content-around align-items-center text-light animate__animated animate__fadeInLeft">
                 <img src="img/city-life.png" alt="" height="60" width="60">
                 <h1>Barcelona</h1>
             </div>
-            <div class="contenedorB group_1 d-flex flex-column justify-content-around align-items-center text-light">
+            <div class="contenedorB group_1 d-flex flex-column justify-content-around align-items-center text-light animate__animated animate__fadeInLeft">
             <img src="https://www.el-tiempo.net/themes/eltiempo-theme/assets/img/weather-static/cloudy.svg" alt width="80" height="80">
             <h1>Nuboso</h1>
             </div>
-            <div class="contenedorB group_1 d-flex flex-column justify-content-around align-items-center text-light" style = "width=20%;">
+            <div class="contenedorB group_1 d-flex flex-column justify-content-around align-items-center text-light animate__animated animate__fadeInLeft" style = "width=20%;">
                 <i class="bi bi-alarm" style="font-size: 4em;"></i>
                 <h1 id = "hora">${horaFormateada}</h1>
             </div>
-            <div class="contenedorB group_1 d-flex flex-row justify-content-around align-items-center text-light">
+            <div class="contenedorB group_1 d-flex flex-row justify-content-around align-items-center text-light animate__animated animate__fadeInLeft">
                 <i class="bi bi-thermometer-half" style="font-size: 5em;"></i>
                 <div class="de">
                     <h1 class = "fs-2">Min: ${min}°C</h1>

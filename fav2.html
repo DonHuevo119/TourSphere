@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/uiverse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <title>TourSphere</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body class="animate__animated animate__fadeIn animate__slower" id="index2" style="overflow-y: scroll;">
+
+    <!-- Header -->
+
+    <header class="d-flex flex-wrap justify-content-center align-items-center py-3 mb-4 border-bottom bg-light animate__animated animate__fadeInDown">
+        <!-- Izquierda -->
+        <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <svg class="bi me-2" width="40" height="32">
+                <use xlink:href="#bootstrap"></use>
+            </svg>
+            <img class="me-4" src="img/logo_web.png" alt="" height="50" width="50">
+            <span class="fs-2 text-light"><strong>TourSphere</strong></span>
+        </a>
+        <!-- Derecha -->
+        <ul class="nav nav-pills me-5">
+            <li class="nav-item fs-4"><a href="home.html" class="nav-link active bg-none"
+                    aria-current="page"><strong>Home</strong></a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link text-white fs-4"><strong>Login</strong></a></li>
+            <li class="nav-item"><a href="register.html" class="nav-link text-white fs-4"><strong>Register</strong></a>
+            </li>
+            <li class="nav-item"><a href="fav.html" class="nav-link fs-4"
+                    style="color: rgba(255, 255, 255, 0.719); text-decoration: overline;"><strong>Fav.</strong></a></li>
+            <li class="nav-item"><a href="infoPage.html" class="nav-link text-white fs-4"><strong>About</strong></a>
+            </li>
+        </ul>
+    </header>
+
+    <!-- Tapa -->
+
+    <div class="d-flex flex-column align-items-center justify-content-center animate__animated animate__fadeInUp" style="text-shadow: 1px 1px 15px black;">
+        <div class="mt-5 contenedorBV w-75 pb-5">
+            <div class="titulo d-flex justify-content-center">
+                <h1 class="text-light mt-4 mb-4">Your favorite sites</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm d-flex flex-column h-100">
+                        <img class="rounded-2" src="img/laSagradaFamilia.jpg" alt="" style="min-height: 300px;">
+                        <div class="card-body d-flex flex-column">
+                            <h1>La Sagrada Familia</h1>
+                            <p class="card-text texto">The Sagrada Familia is a Catholic basilica located in Barcelona,
+                                Spain, designed by the renowned Catalan architect Antoni Gaudí.</p>
+                            <div class="mt-auto mb-2">
+                                <button type="button" class="contenedorBV text-light button mt-auto"
+                                    style="background-color: rgba(240, 248, 255, 0.158);"
+                                    onclick="irSagrada()">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm d-flex flex-column h-100">
+                        <img class="rounded-2" src="img/camp nou.jpg" alt="" style="min-height: 300px;">
+                        <div class="card-body d-flex flex-column">
+                            <h1>Parque Güell</h1>
+                            <p class="card-text texto">Parque Güell is a public park in Barcelona, Spain, also designed
+                                by the architect Antoni Gaudí. It showcases his distinctive style of colorful mosaic
+                                work,
+                                and imaginative design. </p>
+                            <div class="mt-auto mb-2">
+                                <button type="button" class="contenedorBV text-light button mt-auto"
+                                    style="background-color: rgba(240, 248, 255, 0.158);"
+                                    onclick="irPark()">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm d-flex flex-column h-100">
+                        <img class="rounded-2" src="img/guell.jpg" alt="" style="min-height: 300px;">
+                        <div class="card-body d-flex flex-column">
+                            <h1>Camp Nou</h1>
+                            <p class="card-text texto">The Camp Nou is a renowned football stadium located in
+                                Barcelona, Spain, serving as the home ground for FC Barcelona.</p>
+                            <div class="mt-auto mb-2">
+                                <button type="button" class="contenedorBV text-light button mt-auto"
+                                    style="background-color: rgba(240, 248, 255, 0.158);"
+                                    onclick="irCamp()">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="d-flex flex-column align-items-center justify-content-center mb-5 animate__animated animate__fadeInUp"
+        style="text-shadow: 1px 1px 15px black;">
+        <div class="mt-5 contenedorBV w-75 pb-5">
+            <div class="titulo d-flex justify-content-center">
+                <h1 class="text-light mt-4 mb-4">Your favorite reustaurants</h1>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column">
+                        <img class="rounded-2" src="img/puertecilla.png" alt="">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h1>Puertecillo Sagrada Familia</h1>
+                            <p class="card-text texto">With over 4.1 thousand reviews on Google and nearly full
+                                stars,
+                                Puertecillo is undoubtedly one of the best dining options near the Sagrada Familia.
+                                Their
+                                menu specializes in seafood.</p>
+                            <div class="mt-auto mb-2">
+                                <a href="https://puertecillo.es/puertecillo-sagrada-familia/" target="_blank">
+                                    <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                        style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                        onclick="irEjemplo()">View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column">
+                        <img class="rounded-2" src="img/stickhouse.png" alt="">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h1>Bivio steak house Barcelona</h1>
+                            <p class="card-text texto">With a total of 2836 reviews, it has managed to obtain 4.3
+                                stars in Google
+                                reviews. With a price of only 20 euros, you can enjoy the best paellas, fish and
+                                meats roasted
+                                over charcoal in the Spanish style.</p>
+                            <div class="mt-auto mb-2">
+                                <a href="https://www.restaurantebivio.com/" target="_blank">
+                                    <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                        style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                        onclick="irEjemplo()">View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column">
+                        <img class="rounded-2" src="img/restaurante3.png" alt="">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h1>Tuscania Food & Wine</h1>
+                            <p class="card-text texto">It is an ideal space for pleasant dinners for couples or
+                                friends. The menu offers
+                                excellent typical Italian dishes that are made with good market products. There have
+                                an excellent
+                                menu with a very good quality-price ratio.</p>
+                            <div class="mt-auto mb-2">
+                                <a href="https://www.tuscaniabarcelona.com/" target="_blank">
+                                    <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                        style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                        onclick="irEjemplo()">View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column">
+                        <img class="rounded-2" src="img/cargolet.png" alt="">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h1>El Cargolet Picant</h1>
+                            <p class="card-text texto">With 2500 reviews on google. El Cargolet has achieved an
+                                average of 3.7 stars out of 5. It is a lively restaurant with a terrace and an
+                                extensive tapas menu where snails stand out.</p>
+                            <div class="mt-auto">
+                                <a href="https://www.elcargolet.es/" target="_blank">
+                                    <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                        style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                        onclick="irEjemplo()">View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column">
+                        <img class="rounded-2" src="img/mamma.png" alt="">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h1>Mamma Italia</h1>
+                            <p class="card-text texto">With 1700 reviews, it has a total of 4.7 stars on google. It
+                                is a pleasant restaurant that offers a wide variety of pizzas, calzones and typical
+                                Italian desserts.</p>
+                            <div class="mt-auto">
+                                <a href="https://www.bcnrestaurantes.com/barcelona-carta.asp?restaurante=mamma-italia"
+                                    target="_blank">
+
+                                    <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                        style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                        onclick="irEjemplo()">View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column">
+                        <img class="rounded-2" src="img/corte.png" alt="">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h1>Corte & Brasa</h1>
+                            <p class="card-text texto">With a total of 800 reviews on Google, it maintains an
+                                average of 4.3 stars. It is an Argentine meat restaurant. Grilled meat, homemade
+                                desserts and a service that will make you feel at home.</p>
+                            <div class="mt-auto">
+                                <a href="https://corteybrasa.com/?lang=es" target="_blank">
+                                    <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                        style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                        onclick="irEjemplo()">View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 d-flex flex-column">
+                        <img class="rounded-2" src="img/benTips.png" alt="">
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <h1>Ben Tips</h1>
+                            <p class="card-text texto">With more than 2000 reviews on Google, it has managed to have
+                                4.5 stars out of 5. It is a restaurant with tapas, hamburgers, sandwiches and
+                                Belgian beers.</p>
+                            <div class="mt-auto">
+                                <a href="https://www.bentips.es/" target="_blank">
+                                    <button type="button" class="contenedorBV text-light button mb-1 ms-2"
+                                        style="background-color: rgba(240, 248, 255, 0.158); text-shadow: 1px 1px 15px black;"
+                                        onclick="irEjemplo()">View</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-5 animate__animated animate__fadeInUp">
+        <div class="col-md-4 d-flex align-items-center">
+            <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                <svg class="bi" width="30" height="24">
+                    <use xlink:href="#bootstrap"></use>
+                </svg>
+            </a>
+            <span class="mb-3 mb-md-0 text-light fs-4">© 2024 Company, Inc</span>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex text-light">
+            <i class="bi bi-twitter-x fs-2 cursor-pointer"></i>
+            <i class="bi bi-instagram fs-2 ms-4 cursor-pointer"></i>
+            <i class="bi bi-facebook fs-2 ms-4 cursor-pointer"></i>
+            <i class="bi bi-whatsapp fs-2 ms-4 me-4 cursor-pointer"></i>
+        </ul>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

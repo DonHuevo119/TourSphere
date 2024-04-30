@@ -24,6 +24,14 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    backdrop-filter: brightness(80%) !important;
+}
+
+#index3 {
+    background-image: url("../img/Bosque.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #home {
@@ -39,7 +47,7 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    backdrop-filter: brightness(60%) !important;
+    backdrop-filter: brightness(50%) !important;
 }
 
 #homeCamp {
@@ -47,7 +55,7 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    backdrop-filter: brightness(60%) !important;
+    backdrop-filter: brightness(50%) !important;
 }
 
 #homePark {
@@ -55,7 +63,7 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    backdrop-filter: brightness(60%) !important;
+    backdrop-filter: brightness(50%) !important;
 }
 
 #btnTop{
