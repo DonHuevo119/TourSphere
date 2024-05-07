@@ -1,3 +1,4 @@
+// JS para la api de meteorología
 
 const contenedorDatos = document.querySelector('.containerPadre')
 const api = 'https://www.el-tiempo.net/api/json/v2/provincias'

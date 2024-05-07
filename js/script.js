@@ -1,3 +1,5 @@
+// JS para algunas funciones básicas
+
 const toast = document.querySelector('.toast')
 
 function login() {

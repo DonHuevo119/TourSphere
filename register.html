@@ -12,12 +12,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
+<!-- Página para registrar -->
+
 <body class="animate__animated animate__fadeIn animate__slower" id="index">
 
-    <!-- Header -->
+    <!-- Header de boostrap -->
 
     <header class="d-flex flex-wrap justify-content-center align-items-center py-3 mb-4 border-bottom bg-light">
-        <!-- Izquierda -->
+        <!-- Elementos de la izquierda -->
         <a href="" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <svg class="bi me-2" width="40" height="32">
                 <use xlink:href="#bootstrap"></use>
@@ -25,34 +27,36 @@
             <img class="me-4" src="img/logo_web.png" alt="" height="50" width="50">
             <span class="fs-2 text-light"><strong>TourSphere</strong></span>
         </a>
-        <!-- Derecha -->
+        <!-- Elementos de la derecha -->
         <ul class="nav nav-pills me-5">
             <li class="nav-item fs-4"><a href="home.html" class="nav-link active bg-none"
                     aria-current="page"><strong>Home</strong></a></li>
             <li class="nav-item"><a href="index.html" class="nav-link text-white fs-4"><strong>Login</strong></a></li>
-            <li class="nav-item"><a href="register.html" class="nav-link text-white fs-4"><strong style="color: rgba(255, 255, 255, 0.719); text-decoration: overline;">Register</strong></a></li>
+            <li class="nav-item"><a href="register.html" class="nav-link text-white fs-4"><strong
+                        style="color: rgba(255, 255, 255, 0.719); text-decoration: overline;">Register</strong></a></li>
             <li class="nav-item"><a href="fav.html" class="nav-link text-white fs-4"><strong>Fav.</strong></a></li>
-            <li class="nav-item"><a href="infoPage.html" class="nav-link text-white fs-4"><strong>About</strong></a></li>
+            <li class="nav-item"><a href="infoPage.html" class="nav-link text-white fs-4"><strong>About</strong></a>
+            </li>
         </ul>
     </header>
 
-    <!-- Contenedor Login/Register -->
+    <!-- Contenedor register que gira y tiene dos caras -->
 
     <div class="d-flex justify-content-center" style="margin-top: 20vh;">
         <div class="flip-card">
             <div class="flip-card-inner d-flex justify-content-center">
-                <!-- Parte delantera -->
+                <!-- Parte delantera, antes de hacer el hover -->
                 <div class="flip-card-front">
                     <h1 class="title">Register</h1>
                 </div>
-                <!-- Parte trasera -->
+                <!-- Parte trasera, después de hacer el hover -->
                 <div class="flip-card-back w-100">
                     <div class="imagen align-items-center flex-wrap p-5" style="top: 0;">
                         <img class="me-4" src="img/logo_web_white.png" alt="" style="width: 10%;">
                         <h1>TourSphere</h1>
                     </div>
 
-                    <!-- Input 1 -->
+                    <!-- Input 1 para poner el nombre -->
                     <div class="d-flex align-items-center justify-content-center mt-3">
                         <div class="wave-group w-100 mt-5">
                             <input required="" type="text" class="input">
@@ -66,6 +70,7 @@
                         </div>
                     </div>
 
+                    <!-- Input 2 para poner el email -->
                     <div class="wave-group w-100">
                         <input required="" type="text" class="input">
                         <span class="bar"></span>
@@ -78,7 +83,7 @@
                         </label>
                     </div>
 
-                    <!-- Input 2 -->
+                    <!-- Input 3 para introducir contraseña -->
                     <div class="wave-group">
                         <input required="" type="password" class="input">
                         <span class="bar"></span>
@@ -94,6 +99,7 @@
                         </label>
                     </div>
 
+                    <!-- Input 4 para confirmar contraseña -->
                     <div class="wave-group">
                         <input required="" type="password" class="input">
                         <span class="bar"></span>
@@ -117,17 +123,22 @@
                         </label>
                     </div>
 
-                    <!-- boton -->
+                    <!-- Botones -->
 
                     <div class="d-flex flex-column align-items-center justify-content-center mt-4">
                         <div class="d-flex flex-column justify-content-between w-100 mb-2">
+                            <!-- Para iniciar sesión -->
                             <a href="index.html">
-                                <p class="cursor-pointer user-select-none text-decoration-none fs-6" style="color: rgba(255, 255, 255, 0.699);">Already have an account? | Login</p>
+                                <p class="cursor-pointer user-select-none text-decoration-none fs-6"
+                                    style="color: rgba(255, 255, 255, 0.699);">Already have an account? | Login</p>
                             </a>
+                            <!-- Para entrar en modo invitado -->
                             <a href="home.html">
-                                <p class="cursor-pointer user-select-none text-decoration-none fs-6" style="color: rgba(255, 255, 255, 0.699);">Guest mode</p>
+                                <p class="cursor-pointer user-select-none text-decoration-none fs-6"
+                                    style="color: rgba(255, 255, 255, 0.699);">Guest mode</p>
                             </a>
                         </div>
+                        <!-- Para confirmar el registro de sesión -->
                         <button class="button">
                             Send
                         </button>
@@ -137,6 +148,8 @@
         </div>
     </div>
 
+
+    <!-- Un footer -->
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top mt-5">
         <div class="col-md-4 d-flex align-items-center">
             <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
