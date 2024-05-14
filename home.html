@@ -60,7 +60,7 @@
                 </h1>
 
                 <div id="carouselExampleCaptions" class="carousel slide border rounded-4"
-                    style="max-height: 65%; min-height:65%; max-width:65%; min-width: 65%">
+                    style="max-height: 65%; min-height:65%; max-width:65%; min-width: 65%;">
 
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
@@ -76,7 +76,10 @@
                                 style="max-height: 100%; min-height:100%; max-width:100%; min-width: 100%"
                                 onclick="irSagrada()">
                             <div class="carousel-caption d-none d-md-block">
-                                <h1 style="text-shadow: 1px 1px 9px black;">La Sagrada Familia</h1>
+                                <h1 style="text-shadow: 1px 1px 9px black; display: flex; align-items: center;">
+                                    Sagrada Familia
+                                    <i id="heartIcon2" class="bi bi-heart-fill" style="color:white; margin-left: auto;"></i>
+                                </h1>
                                 <h5 style="text-shadow: 1px 1px 9px black;">The Sagrada Familia is a Catholic basilica
                                     located in Barcelona,
                                     Spain,
@@ -88,7 +91,10 @@
                                 style="max-height: 100%; min-height:100%; max-width:100%; min-width: 100%"
                                 onclick="irPark()">
                             <div class="carousel-caption d-none d-md-block">
-                                <h1 style="text-shadow: 1px 1px 9px black;">Parque Güell</h1>
+                                <h1 style="text-shadow: 1px 1px 9px black; display: flex; align-items: center;">
+                                    Parque Güell 
+                                    <i id="heartIcon1" class="bi bi-heart-fill" style="color:white; margin-left: auto;"></i>
+                                </h1>
                                 <h5 style="text-shadow: 1px 1px 9px black;">Parque Güell is a public park in Barcelona,
                                     Spain, also designed
                                     by the
@@ -101,7 +107,10 @@
                                 style="max-height: 100%; min-height:100%; max-width:100%; min-width: 100%"
                                 onclick="irCamp()">
                             <div class="carousel-caption d-none d-md-block">
-                                <h1 style="text-shadow: 1px 1px 2px black;">Camp Nou</h1>
+                                <h1 style="text-shadow: 1px 1px 9px black; display: flex; align-items: center;">
+                                    Camp nou
+                                    <i id="heartIcon" class="bi bi-heart-fill" style="color:white; margin-left: auto;"></i>
+                                </h1>
                                 <h5 style="text-shadow: 1px 1px 2px black;">The Camp Nou is a renowned football stadium
                                     located in Barcelona, Spain, serving as the home ground for FC Barcelona.</h5>
                             </div>
@@ -143,7 +152,7 @@
             <i class="bi bi-whatsapp fs-2 ms-4 me-4 cursor-pointer"></i>
         </ul>
     </footer>
-
+    <script src="js/heart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
